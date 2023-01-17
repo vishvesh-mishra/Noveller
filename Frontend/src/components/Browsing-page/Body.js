@@ -1,0 +1,16 @@
+import React from "react";
+import BrowseCards from "./BrowseCards";
+import "./main.css";
+import "./imgstyles.css";
+
+function Body() {
+  return (
+    <div className="BROWSE_BODY">
+      {/* <Navbar /> */}
+      <BrowseCards />
+      
+    </div>
+  );
+}
+
+export default Body;
